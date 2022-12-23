@@ -19,7 +19,7 @@
 	text-decoration: none;
 }
 .logo span{
-	color: rgb(46, 153, 229);
+	color: rgb(2, 136, 189);
 }
 .nav-links a{
 	text-decoration: none;
@@ -35,5 +35,5 @@
 	
 }
 .nav-links li:hover{
-	color: rgb(46, 153, 229);
+	color: rgb(2, 136, 189);
 }

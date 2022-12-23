@@ -1,0 +1,11 @@
+.property-section{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+.section-title{
+	color: rgb(2, 136, 189);
+	font-size: 30px;
+	margin-top: 50px;
+	margin-left: 20px;
+}

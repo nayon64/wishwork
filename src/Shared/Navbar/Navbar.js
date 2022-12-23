@@ -19,8 +19,8 @@ const Navbar = () => {
       </Link>
 
       <div className="nav-links">
-        {menus.map((menu) => (
-          <Link to={menu.path}>
+        {menus.map((menu,i) => (
+          <Link key={i} to={menu.path}>
             <li>{menu.name}</li>
           </Link>
         ))}
