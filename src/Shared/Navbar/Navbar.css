@@ -9,6 +9,9 @@
 	justify-content: space-between;
 	align-items: center;
 }
+.client-IP{
+	color: #d3d3d3;
+}
 .nav-links{
 	display: flex;
 	margin-right: 15px;

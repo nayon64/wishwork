@@ -16,15 +16,14 @@ const Properts = () => {
 		}
 	})
 
-	console.log(properts)
 	
 	return (
-    <div className='properts'>
+    <div className="properts">
       <h2 className="section-title">Ours Property List</h2>
       <div className="property-section">
         {properts.map((property) => (
-          <Link to={`/propertyDetails/${property.id}`}>
-            <PropertyCard key={property.id} property={property}></PropertyCard>
+          <Link key={property.id} to={`/propertyDetails/${property.id}`}>
+            <PropertyCard property={property}></PropertyCard>
           </Link>
         ))}
       </div>

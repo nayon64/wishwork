@@ -3,7 +3,6 @@ import "./PropertyCard.css"
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 const PropertyCard = ({ property }) => {
-	console.log(property)
 	return (
     <div className="card">
       <div className="card-img">
