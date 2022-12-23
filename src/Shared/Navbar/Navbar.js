@@ -3,22 +3,28 @@ import { Link } from 'react-router-dom';
 import "./Navbar.css"
 
 const Navbar = () => {
+
+	const menus = [
+    { path: "/", name: "Home" },
+    { path: "/", name: "About" },
+    { path: "/", name: "Contact" },
+  ];
+
 	return (
     <div className="navbar">
-      <h4 className="logo">
-        DREAM <span>HOUSE</span>
-      </h4>
-      <ul className="nav-links">
-        <Link>
-          <li>Home</li>
-        </Link>
-        <Link>
-          <li>About</li>
-        </Link>
-        <Link>
-          <li>Contact</li>
-        </Link>
-      </ul>
+      <Link className="logo">
+        <h4>
+          DREAM <span>HOUSE</span>
+        </h4>
+      </Link>
+
+      <div className="nav-links">
+        {menus.map((menu) => (
+          <Link to={menu.path}>
+            <li>{menu.name}</li>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };

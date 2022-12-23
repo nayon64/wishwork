@@ -16,9 +16,13 @@
 	font-size: 20px;
 	color: #ffffff;
 	margin-left: 15px;
+	text-decoration: none;
 }
 .logo span{
 	color: rgb(46, 153, 229);
+}
+.nav-links a{
+	text-decoration: none;
 }
 
 .nav-links li{
