@@ -10,14 +10,16 @@ const Banner = () => {
       }}
     >
       <div className="hero">
-        <div className="hero-describtion">
-          <h5>BUY, RENT, OR SELL HOUSE</h5>
-          <h1 className='bannerTitle'> Find Your Dream House!</h1>
-          <p>
-            Convallis parturient himenaeos nam luctus eu id. Vehicula justo per
-            eget pede at laoreet auctor quam. Dolor tortor tristique mollis
-            letius finibus.
-          </p>
+        <div>
+          <div className="hero-describtion">
+            <h5>BUY, RENT, OR SELL HOUSE</h5>
+            <h1 className="bannerTitle"> Find Your Dream House!</h1>
+            <p>
+              Convallis parturient himenaeos nam luctus eu id. Vehicula justo
+              per eget pede at laoreet auctor quam. Dolor tortor tristique
+              mollis letius finibus.
+            </p>
+          </div>
         </div>
       </div>
     </div>

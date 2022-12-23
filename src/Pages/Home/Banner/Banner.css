@@ -10,10 +10,17 @@
 	width: 100%;
 	height: 100vh;
 	background-image: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,.4));
+	
+}
+.hero>div{
+	max-width: 1170px;
+	height: 100vh;
+	margin: 0 auto;
 	display: flex;
 	align-items: center;
 }
 .hero-describtion{
+	
 	width: 50%;
 	color: #cecdcd;
 	padding: 25px;

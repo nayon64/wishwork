@@ -11,21 +11,23 @@ const Navbar = () => {
   ];
 
 	return (
-    <div className="navbar">
-      <Link className="logo">
-        <h4>
-          DREAM <span>HOUSE</span>
-        </h4>
-      </Link>
+   
+      <div className="navbar">
+        <Link to="/" className="logo">
+          <h4>
+            DREAM <span>HOUSE</span>
+          </h4>
+        </Link>
 
-      <div className="nav-links">
-        {menus.map((menu,i) => (
-          <Link key={i} to={menu.path}>
-            <li>{menu.name}</li>
-          </Link>
-        ))}
+        <div className="nav-links">
+          {menus.map((menu, i) => (
+            <Link key={i} to={menu.path}>
+              <li>{menu.name}</li>
+            </Link>
+          ))}
+        </div>
       </div>
-    </div>
+  
   );
 };
 

@@ -2,6 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import React from 'react';
 import PropertyCard from './PropertyCard';
 import "./Properts.css"
+import { Link } from 'react-router-dom';
 
 const Properts = () => {
 
@@ -16,16 +17,19 @@ const Properts = () => {
 	})
 
 	console.log(properts)
+	
 	return (
-		<div>
-			<h2 className='section-title'>Ours Property List</h2>
-			<div className='property-section'>
-				{
-					properts.map(property=><PropertyCard key={property.id} property={property}></PropertyCard>)
-				}
-			</div>
-		</div>
-	);
+    <div className='properts'>
+      <h2 className="section-title">Ours Property List</h2>
+      <div className="property-section">
+        {properts.map((property) => (
+          <Link to={`/propertyDetails/${property.id}`}>
+            <PropertyCard key={property.id} property={property}></PropertyCard>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default Properts;

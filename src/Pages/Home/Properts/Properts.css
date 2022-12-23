@@ -1,7 +1,15 @@
+.properts{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
 .property-section{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 20px;
+}
+.property-section a{
+	text-decoration: none;
 }
 .section-title{
 	color: rgb(2, 136, 189);

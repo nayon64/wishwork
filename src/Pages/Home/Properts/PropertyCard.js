@@ -11,7 +11,7 @@ const PropertyCard = ({ property }) => {
       </div>
 
       <div className="card-body">
-        <h3 className='card-title'>{property?.propertyName.slice(0, 40)}</h3>
+        <h3 className='card-title'>{property?.propertyName.slice(0, 40)}{ property.id}</h3>
         <div className='location'>
           <FaMapMarkerAlt className='marker'></FaMapMarkerAlt>
           <span>{property?.location}</span>
