@@ -1,57 +1,68 @@
-.card{
-background-color: rgb(226, 225, 225);
+.card {
+	background-color: rgb(226, 225, 225);
 	border-radius: 7px;
 	overflow: hidden;
 	height: calc(100%);
 }
-.card-img{
+
+.card-img {
 	width: 100%;
 }
-.card-img img{
+
+.card-img img {
 	width: 100%;
 }
-.card-body{
+
+.card-body {
 	padding: 20px;
 }
-.card-title{
+
+.card-title {
 	font-size: 17px;
 	color: rgb(2, 136, 189);
 	margin: 0;
 }
-.marker{
+
+.marker {
 	color: rgb(2, 136, 189);
 }
-.cardDescrib{
+
+.cardDescrib {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 10px;
 }
-.location{
+
+.location {
 	margin-top: 10px;
 	display: flex;
 	align-items: center;
 	font-size: 14px;
 }
-.location span{
-	margin-left:6px;
+
+.location span {
+	margin-left: 6px;
 	color: rgb(56, 56, 56);
 }
-.cardDescrib div{
-	
+
+.cardDescrib div {
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	
+
 }
-.cardDescrib div p{
+
+.cardDescrib div p {
 	margin: 0;
 	color: rgb(85, 85, 85);
 	font-size: 18px;
 	font-weight: 600;
 }
-.cardDescrib h5{
-	font-size: 16px;
+
+.cardDescrib h5 {
+	font-size: 18px;
 	color: rgb(70, 70, 70);
 	margin: 0;
 }
